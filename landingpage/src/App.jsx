@@ -1,11 +1,11 @@
 import "./App.css";
-import main from "./layout/home/main";
+import Main from "./layout/home/Main";
 
 function App() {
 
   return (
     <>
-
+      <Main />  
     </>
   );
 }
