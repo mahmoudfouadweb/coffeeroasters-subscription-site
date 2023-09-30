@@ -1,5 +1,6 @@
 import "./main.css";
-import logoTitleSV from "../../assets/home/desktop/Combined Shape (2).svg";
+import Logo from "../../assets/shared/desktop/logo.svg";
+import LogoWhite from "../../assets/shared/desktop/logo-white.svg";
 import granEspresso from "../../assets/home/desktop/image-gran-espresso.png";
 import planalto from "../../assets/home/desktop/image-planalto.png";
 import Piccollo from "../../assets/home/desktop/image-Piccollo.png";
@@ -7,13 +8,16 @@ import Danche from "../../assets/home/desktop/image-danche.png";
 import Coffee from "../../assets/home/desktop/icon-coffee-bean.svg";
 import benefits from "../../assets/home/desktop/icon-gift.svg";
 import shipping from "../../assets/home/desktop/icon-truck.svg";
+import facebook from "../../assets/shared/desktop/icon-facebook.svg";
+import twitter from "../../assets/shared/desktop/icon-twitter.svg";
+import instagram from "../../assets/shared/desktop/icon-instagram.svg";
 
 const main = () => {
   return (
     <>
       <nav>
         <div className="logo">
-          <img src={logoTitleSV} alt="aaa" />
+          <img src={Logo} alt="aaa" />
         </div>
         <ul className="nav_list">
           <li>home</li>
@@ -139,6 +143,21 @@ const main = () => {
         </div>
         <button>Create Your Plan</button>
       </section>
+      <footer className="footer">
+        <div className="logo_box">
+          <img src={LogoWhite} alt="logo" />
+        </div>
+        <ul className="footer_list">
+          <li>home</li>
+          <li>about us</li>
+          <li>create your plan</li>
+        </ul>
+        <div className="social_media">
+          <img src={facebook} alt="facebook" />
+          <img src={twitter} alt="twitter" />
+          <img src={instagram} alt="instagram" />
+        </div>
+      </footer>
     </>
   );
 };

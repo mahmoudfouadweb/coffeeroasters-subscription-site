@@ -140,7 +140,7 @@ h3 {
 
 .why_choose_us {
   margin-top: 22rem;
-  margin-bottom: 70rem;
+  margin-bottom: 36rem;
   background-color: #2c343e;
   display: flex;
   flex-direction: column;
@@ -205,12 +205,13 @@ h3 {
 .how_works {
   max-width: 92.5%;
   margin: 0 auto;
+  margin-bottom: 20rem;
 }
 
 .how_works h3 {
   font-size: 2.4rem;
   font-family: abel;
-  color: #83888F;
+  color: #83888f;
   text-align: start;
 }
 
@@ -228,7 +229,7 @@ h3 {
   color: #fefcf7;
 }
 
-.steps{
+.steps {
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -248,20 +249,45 @@ h3 {
   height: 38.2rem;
 }
 
-.step_number{
-  color: #FDD6BA;
+.step_number {
+  color: #fdd6ba;
   font-family: abel;
   font-size: 7.2rem;
 }
 
-.step_title{
+.step_title {
   font-family: abel;
   font-size: 3.2rem;
   max-width: 55%;
 }
 
-.steps_card p{
+.steps_card p {
   font-family: "Barlow", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+.footer {
+  background-color: #2c343e;
+  display: flex;
+  height: 12rem;
+  padding: 4.8rem 8rem;
+  gap: 10rem;
+}
+
+.footer_list {
+  list-style: none;
+  color: #83888f;
+  display: flex;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  gap: 4rem;
+  text-transform: uppercase;
+}
+
+.social_media {
+  margin-left: auto;
+  display: flex;
+  gap: 2.6rem;
 }
