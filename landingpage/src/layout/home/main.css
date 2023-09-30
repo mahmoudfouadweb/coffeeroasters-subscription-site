@@ -98,11 +98,13 @@ h3 {
   font-size: 15rem;
   font-family: "abel";
   letter-spacing: 0.02em;
-  color: #eee;
   position: relative;
-  z-index: -1;
+  z-index: 0;
   top: 7rem;
-  
+  background-image: linear-gradient(to bottom, #83888f60, #fff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .cards {
@@ -113,6 +115,7 @@ h3 {
   max-width: 100%;
   margin: 0 auto;
   gap: 3rem;
+  z-index: 2;
 }
 .collection_card {
   max-width: 100%;
@@ -133,4 +136,132 @@ h3 {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+}
+
+.why_choose_us {
+  margin-top: 22rem;
+  margin-bottom: 70rem;
+  background-color: #2c343e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  gap: 3.8rem;
+  padding-top: 22rem;
+  height: 55rem;
+}
+
+.why_choose_us h2 {
+  color: #fefcf7;
+  font-size: 4rem;
+  font-family: abel;
+}
+
+.why_choose_us p {
+  color: #fefcf7bb;
+  font-size: 1.8rem;
+  font-family: abel;
+  max-width: 50%;
+  text-align: center;
+}
+
+.why_choose_us_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  transform: translateY(4rem);
+}
+
+.why_choose_us_card {
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #0e8784;
+  border-radius: 1rem;
+  width: 35rem;
+  height: 38.2rem;
+}
+
+.why_choose_us_card h2 {
+  color: #fff;
+}
+
+.why_choose_us_card p {
+  color: #fefcf7de;
+  line-height: 1.5;
+  text-align: center;
+  width: 20rem;
+}
+.why_choose_us_card img {
+  margin: 2.6rem 0;
+}
+
+.how_works {
+  max-width: 92.5%;
+  margin: 0 auto;
+}
+
+.how_works h3 {
+  font-size: 2.4rem;
+  font-family: abel;
+  color: #83888F;
+  text-align: start;
+}
+
+.how_works button {
+  margin-top: 6.6rem;
+  padding: 1.6rem 6.2rem;
+  border: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  cursor: pointer;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Abel";
+  line-height: 25px;
+  color: #fefcf7;
+}
+
+.steps{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  /* gap: 3rem; */
+  transform: translateY(4rem);
+}
+
+.steps_card {
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #333;
+  border-radius: 1rem;
+  width: 35rem;
+  height: 38.2rem;
+}
+
+.step_number{
+  color: #FDD6BA;
+  font-family: abel;
+  font-size: 7.2rem;
+}
+
+.step_title{
+  font-family: abel;
+  font-size: 3.2rem;
+  max-width: 55%;
+}
+
+.steps_card p{
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
