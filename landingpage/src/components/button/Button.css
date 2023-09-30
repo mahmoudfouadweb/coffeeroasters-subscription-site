@@ -1,0 +1,13 @@
+.btn_primary{
+  margin-top: 5.6rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  cursor: pointer;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Abel";
+  line-height: 25px;
+  color: #fefcf7;
+}
